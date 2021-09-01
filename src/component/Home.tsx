@@ -5,7 +5,7 @@ import Message from '../types/Message'
 import User from '../types/User'
 
 // io is taking two arguments: the ADDRESS of the server and a config object
-const ADDRESS = 'http://localhost:3030'
+const ADDRESS = 'http://localhost:3001'
 const socket = io(ADDRESS, { transports: ['websocket'] })
 // right when io is executed, our connection is initialized
 // so the server is aware of us and the communication can start
